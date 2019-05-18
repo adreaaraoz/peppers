@@ -1,7 +1,21 @@
+html,
+body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
 
 .hero {
+
+  padding-top:25px;
   background-image: url("/Users/adreaaraoz/Sites/peppers/Images peppers/hero.jpg");
-  background-size: cover;
+  background-size:cover;
+}
+header .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .nav-link {
@@ -11,3 +25,12 @@
  .cta {
    color: #FFFFFF !important;
  }
+
+ .btn-primary {
+  background-color: #dc3545;
+  border-color: #e20b0bfa;
+}
+.btn-primary:hover {
+background-color: #dc3545;
+border-color: #d51419;
+}
