@@ -1,18 +1,13 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+
 .hero {
   background-image: url("/Users/adreaaraoz/Sites/peppers/Images peppers/hero.jpg");
   background-size: cover;
-  height: 100%;
+}
 
-.nav-item {
+.nav-link {
   color: #FFFFFF !important;
   font-weight: bold;
 }
  .cta {
-   color: #FFFFFF
+   color: #FFFFFF !important;
  }
