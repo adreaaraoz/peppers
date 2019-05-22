@@ -41,5 +41,13 @@ border-color: #d51419;
 }
 .hands-free-container {
   margin-top: 5em;
+}
+.ig-logo {
+left: 15px;
+: 15px;
+position: absolute;
+width: 40px;
+}
+
   margin-bottom: 5em;
 }
