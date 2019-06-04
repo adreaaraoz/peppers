@@ -55,9 +55,9 @@ width: 40px;
   }
   /******************************
   *******************************
-  Rock N Roll Columns Glasses
+  Rock N Roll Sunglasses
   ******************************/
-  #Rock-sunglasses > row {
+  #Rock-sunglasses > .row {
     width: 600px;
     margin: 0 auto;
   }
@@ -82,3 +82,61 @@ width: 40px;
 .footer {
   background-color: black;
 }
+
+
+.Rock-frame {
+  padding: 0 5px;
+}
+
+.Rock-frame > p, .glasses-price {
+  background-color: #fAfAfA;
+  color: #000;
+  text-align: center;
+}
+
+.Rock-frame > p {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+p.glasses-price {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+}
+
+.Rock-frame > h3 {
+  background-color: #fAfAfA;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+.glasses-cta-container {
+  background-color: #fAfAfA;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+/* responsive */
+
+#mobile-products-container {
+  display: block;
+}
+
+#desktop-products {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #mobile-products-container {
+    display: none;
+  }
+
+  #desktop-products {
+    display: block
+  }
