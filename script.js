@@ -42,7 +42,7 @@ for (var i=0; i < shades.lenght; i++) { console.log (shades)
 $(document).ready(function() {
   $('#mobile-products').html(mobileProducts( shades[0] ));
 
-  $ ('circle').click(function() {
+  $ ('html'). on ('click') function() {
     let index = $(this).data('index');
     $('mobile-products').html(mobileProducts( shades [i] ));
     console.log ("Clicked at index" + index + "." );
